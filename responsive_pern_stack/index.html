@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Roboto+Condensed:wght@700&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pernstack Landing Page</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- navbar -->
+      <header class="flex-between align-center">
+        <div class="nav-head flex align-center gap-vlg">
+          <div class="nav-logo">
+            <img src="./resources/header/logo.svg" alt="logo" />
+          </div>
+          <div class="nav-links flex-between gap-lg">
+            <a class="text-nav-links" href="">Home</a>
+            <a class="text-nav-links" href="">About</a>
+            <a class="text-nav-links" href="#subs">Pricing</a>
+            <a class="text-nav-links" href="">Contact</a>
+          </div>
+        </div>
+        <div class="nav-tail flex gap-sm">
+          <a href="./" class="nav-btn btn-theme">Log in</a>
+          <a href="./" class="nav-btn btn-white text-sm-bold">Sign up</a>
+          <img src="./resources/header/menu.svg" alt="menu" />
+        </div>
+      </header>
+
+      <!-- hero  -->
+
+      <div class="hero container flex-col gap-xxl">
+        <div class="hero-head flex-col gap-lg">
+          <div class="hero-text flex-col gap-md">
+            <div class="heading-xl">
+              Empowering Web Developers: Master the PERN Stack
+            </div>
+            <div class="text-md">
+              Build Dynamic Websites with PernStack - The Comprehensive Course
+              for Modern Web Developers
+            </div>
+          </div>
+          <div class="hero-btn flex-col-reverse gap-sm">
+            <a href="./" class="btn btn-white text-sm-bold">Showcase</a>
+            <a href="./" class="btn btn-theme text-sm-bold">Chat to us</a>
+          </div>
+        </div>
+        <div class="hero-banner">
+          <img
+            class="banner-sm"
+            src="./resources/main/main-section-img-mini.svg"
+            alt="main-section-image"
+            width="100%"
+          />
+          <img
+            class="banner-lg"
+            src="./resources/hero-img.svg"
+            alt="main-section-image"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- blog / article section -->
+
+    <div class="blog container">
+      <div class="blog-text gap-vlg">
+        <div class="heading-lg">
+          Elevate Your Web Development Skills to New Heights
+        </div>
+        <div class="blog-para">
+          <div class="text-sm">
+            Welcome to PernStack, the ultimate web development course designed
+            to equip you with the knowledge and skills needed to create dynamic,
+            robust, and cutting-edge websites. Whether you're an aspiring
+            developer or a seasoned professional looking to stay ahead in the
+            ever-evolving world of web development, PernStack has you covered.
+          </div>
+          <br />
+          <div class="text-sm">
+            In this comprehensive course, you'll dive deep into the powerful
+            combination of the PERN (PostgreSQL, Express.js, React, Node.js)
+            stack, which forms the backbone of countless successful web
+            applications. With hands-on projects, real-world examples, and
+            expert guidance, you'll gain the confidence to build feature-rich,
+            scalable, and responsive web applications that will impress clients
+            and employers alike.
+          </div>
+        </div>
+      </div>
+      <div class="blog-img flex align-center">
+        <img src="./resources/atricle/article.svg" alt="" width="100%" />
+      </div>
+    </div>
+
+    <!-- subscription plans section -->
+
+    <div class="subscriptions container flex-col gap-xl">
+      <div class="flex-col gap-md">
+        <div class="heading-lg">Simple, transparent pricing</div>
+        <div class="text-md">Your journey to PERN expertise starts here.</div>
+      </div>
+      <div class="sub-plans cards-container gap-md">
+        <div class="card flex-col gap-lg">
+          <div class="flex-col-between gap-vsm center">
+            <div class="card-title">Web Developer Freshman</div>
+            <div class="card-heading">$10/mth</div>
+            <div class="text-sm">Billed annually.</div>
+          </div>
+          <div class="opportunities flex-col gap-md">
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Access to all course materials</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">One project assignment</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Email support</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/cross.svg" alt="" />
+              <div class="text-sm">Q&A webinars</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/cross.svg" alt="" />
+              <div class="text-sm">One-on-one feedback</div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-theme text-sm-bold" href="./">Get started</a>
+          </div>
+        </div>
+        <div class="card flex-col gap-lg">
+          <div class="flex-col-between gap-vsm center">
+            <div class="card-title">Web Developer Pro</div>
+            <div class="card-heading">$20/mth</div>
+            <div class="text-sm">Billed annually.</div>
+          </div>
+          <div class="opportunities flex-col gap-md">
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Access to all course materials</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Three project assignment</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Email support</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Q&A webinars</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/cross.svg" alt="" />
+              <div class="text-sm">One-on-one feedback</div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-theme text-sm-bold" href="./">Get started</a>
+          </div>
+        </div>
+        <div class="card flex-col gap-lg">
+          <div class="flex-col-between gap-vsm center">
+            <div class="card-title">Web Developer Freshman</div>
+            <div class="card-heading">$10/mth</div>
+            <div class="text-sm">Billed annually.</div>
+          </div>
+          <div class="opportunities flex-col gap-md">
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Access to all course materials</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Six project assignment</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Priority email support</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">Q&A webinars</div>
+            </div>
+            <div class="flex align-center gap-sm">
+              <img src="./resources/icons/check.svg" alt="" />
+              <div class="text-sm">One-on-one feedback</div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-theme text-sm-bold" href="./">Get started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- stats section -->
+
+    <div class="stats-section container flex-col gap-xl">
+      <div class="flex-col gap-md">
+        <div class="heading-lg">Empowering Developers from Day One</div>
+        <div class="text-md">Why PernStack is the Preferred Choice</div>
+      </div>
+      <div class="stats-body grid-col-sm align-center gap-xl">
+        <div class="grid-col-sm gap-lg center">
+          <div class="stat">
+            <div class="stat-heading">10k+</div>
+            <div class="stat-sub">Students enrolled</div>
+            <p class="text-sm">
+              Over 8k+ students have successfully completed the PernStack
+              course.
+            </p>
+          </div>
+          <div class="stat">
+            <div class="stat-heading">500+</div>
+            <div class="stat-sub">Real World Projects</div>
+            <p class="text-sm">
+              Graduates have built over 500 real-world web applications using
+              PernStack.
+            </p>
+          </div>
+          <div class="stat">
+            <div class="stat-heading">95%</div>
+            <div class="stat-sub">Alumni are now employed</div>
+            <p class="text-sm">
+              95% of PernStack alumni landed new job opportunities after
+              completing the course.
+            </p>
+          </div>
+          <div class="stat">
+            <div class="stat-heading">5k+</div>
+            <div class="stat-sub">5-star reviews</div>
+            <p class="text-sm">
+              We're proud of our 5-star rating with over 5k reviews.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="./resources/service.svg" alt="service" width="100%" />
+        </div>
+      </div>
+    </div>
+
+    <!-- join communities -->
+    <div class="community flex-col container gap-xl">
+      <div class="flex-col gap-md">
+        <div class="heading-lg">Chat to our friendly team</div>
+        <div class="text-md">
+          We'd love to hear from you! Please get in touch.
+        </div>
+      </div>
+      <div class="flex-col gap-vlg">
+        <div class="flex gap-sm">
+          <img style="align-self: self-start;" src="./resources/icons/chat-bubble.svg" alt="" />
+          <div>
+            <div class="stat-sub">IIUC Campus</div>
+            <div class="text-sm">CX Building, IIUC Male Campus, Kumira</div>
+          </div>
+        </div>
+        <div class="flex gap-sm">
+          <img style="align-self: self-start;" src="./resources/icons/chat-bubble.svg" alt="" />
+          <div>
+            <div class="stat-sub">Kashbon</div>
+            <div class="text-sm">Kashbon restaurant, IIUC Gate, Kumira</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+
+    <footer class="flex-col gap-xl">
+      <div class="footer-primary flex-col gap-lg">
+        <div>
+          <img src="./resources/footer/logo.svg" alt="logo" />
+        </div>
+        <div class="footer-primary-links footer-grid">
+          <div class="footer-primary-links grid-rows">
+            <a class="text-footer-links" href="">Home</a>
+            <a class="text-footer-links" href="">About</a>
+            <a class="text-footer-links" href="">Pricing</a>
+          </div>
+          <a class="text-footer-links" href="">Contact</a>
+        </div>
+      </div>
+      <div class="footer-secondary flex-col-reverse gap-md">
+        <div class="text-footer-link-secondary">
+          © 2077 Untitled UI. All rights reserved.
+        </div>
+        <div class="footer-links flex gap-md">
+          <a class="text-footer-link-secondary" href="">Terms</a>
+          <a class="text-footer-link-secondary" href="">Privacy</a>
+          <a class="text-footer-link-secondary" href="">Cookies</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
